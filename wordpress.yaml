@@ -4,16 +4,16 @@ Description: WordPress scalable environment with ALB, ASG, EFS, and RDS (MariaDB
 Parameters:
   KeyName:
     Type: AWS::EC2::KeyPair::KeyName
-    Default: MyWinKey
+    Default: YOUR_KEY_HERE
     Description: Name of an existing EC2 KeyPair
 
   DBUser:
     Type: String
-    Default: Otto
+    Default: admin
 
   DBPassword:
     Type: String
-    Default: ottopotto
+    Default: password
     NoEcho: true
 
   DBName:
